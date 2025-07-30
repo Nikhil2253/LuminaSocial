@@ -18,7 +18,7 @@ const HomePage = () => {
         <SideBar />
       </div>
 
-      <div className="absolute top-0 bottom-0 left-[20%] w-[50%] bg-yellow-200 overflow-y-auto custom-scrollbar">
+      <div className="absolute top-0 bottom-0 left-[20%] w-[50%] bg-white overflow-y-auto custom-scrollbar">
         {tab === "Home" && <Feed />}
         {tab === "Bookmarks" && <BookMarks />}
       </div>
