@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes slide-in {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-in {
+    animation: slide-in 0.5s ease-out forwards;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #fffef5;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #fef08a;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #fde047;
+}
+
+/* Yellow-themed scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #facc15; /* Tailwind yellow-400 */
+  border-radius: 6px;
+  border: 2px solid #fff;
+}
+
+/* Optional: scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #fff;
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #facc15 #fff;
+}
