@@ -1,7 +1,7 @@
 <h1 align="center" style="color:"#faac00";">LuminaSocial</h1>
 
 <p align="center">
-  <strong>A modern, full-stack social media platform</strong><br />
+  <strong>A modern, full-stack social interaction web platform</strong><br />
   Built using the MERN stack with real-time features and a clean, white-dominant UI accented by bright yellow.
 </p>
 
