@@ -1,4 +1,4 @@
-<h1 align="center" style="color:"#faac00";">LuminaSocial</h1>
+<h1 align="center" style="color:"#faac00";">☀️ LuminaSocial</h1>
 
 <p align="center">
   <strong>A modern, full-stack social interaction web platform</strong><br />
